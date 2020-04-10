@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D4D4C772406D4130021220F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4D4C762406D4130021220F /* SettingsViewController.swift */; };
+		5D53408A23F5ACF60057D87F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53408923F5ACF60057D87F /* SecondViewController.swift */; };
 		5D7C515D23EDBE060013B5D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C515C23EDBE060013B5D7 /* AppDelegate.swift */; };
 		5D7C515F23EDBE060013B5D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C515E23EDBE060013B5D7 /* SceneDelegate.swift */; };
 		5D7C516123EDBE060013B5D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C516023EDBE060013B5D7 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D4D4C762406D4130021220F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5D53408923F5ACF60057D87F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		5D7C515923EDBE060013B5D7 /* TimerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7C515C23EDBE060013B5D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D7C515E23EDBE060013B5D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				5D7C515C23EDBE060013B5D7 /* AppDelegate.swift */,
 				5D7C515E23EDBE060013B5D7 /* SceneDelegate.swift */,
 				5D7C516023EDBE060013B5D7 /* ViewController.swift */,
+				5D53408923F5ACF60057D87F /* SecondViewController.swift */,
+				5D4D4C762406D4130021220F /* SettingsViewController.swift */,
 				5D7C516223EDBE060013B5D7 /* Main.storyboard */,
 				5D7C516523EDBE080013B5D7 /* Assets.xcassets */,
 				5D7C516723EDBE090013B5D7 /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D53408A23F5ACF60057D87F /* SecondViewController.swift in Sources */,
 				5D7C516123EDBE060013B5D7 /* ViewController.swift in Sources */,
 				5D7C515D23EDBE060013B5D7 /* AppDelegate.swift in Sources */,
+				5D4D4C772406D4130021220F /* SettingsViewController.swift in Sources */,
 				5D7C515F23EDBE060013B5D7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,13 +293,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2KFJL244Z6;
+				DEVELOPMENT_TEAM = 883DK65VTV;
 				INFOPLIST_FILE = TimerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.katiesun.TimerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ephs2020.pomodorotimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,13 +311,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2KFJL244Z6;
+				DEVELOPMENT_TEAM = 883DK65VTV;
 				INFOPLIST_FILE = TimerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.katiesun.TimerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ephs2020.pomodorotimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
